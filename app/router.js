@@ -7,7 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('top-stories');
+  this.route('top-stories', { path: '/' });
 });
 
 export default Router;

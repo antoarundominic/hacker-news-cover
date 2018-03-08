@@ -1,1 +1,16 @@
-{{item.score}}  <a href="{{item.url}}" target='_blank'> {{item.title}} </a>
+<div class="story">
+  {{#if isLoading}}
+    ...
+  {{else}}
+    <div class="story-content">
+      <span class="score"> {{item.score}} </span>
+      <span class="desc">
+        <a href="{{item.url}}" target='_blank'> {{item.title}} </a>
+      </span>
+      <span class="by"> - {{item.by}} </span>
+    </div>
+    <div class="story-response">
+      <span class="comments-count"> Comments: {{item.kids.length}} </span>
+    </div>
+  {{/if}}
+</div>

@@ -1,0 +1,25 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+.story-response {
+  font-size: 12px;
+  
+}
+.story-content {
+  height: 30px;
+  width: 80%;
+  line-height: 30px;
+}
+
+.story-content a {
+  text-decoration: none;
+}
+.story-content .score {
+  color: #EE323D;
+  min-width: 40px;
+}
+.story-content .by {
+  padding-left: 10px;
+}
