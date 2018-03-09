@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="main-wrapper">
+  <div class="side-bar">
+    {{nav-bar}}
+  </div>
+  <div class="content">
+    {{outlet}}
+  </div>
+  <div class="side-content">
+    {{outlet 'side-content'}}
+  </div>
+</div>

@@ -1,3 +1,15 @@
+.main-wrapper {
+  display: flex;
+}
+.nav-menu {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.nav-item {
+  font-size: 35px;
+  background-color:
+}
 .story {
   display: flex;
   flex-direction: column;
@@ -5,7 +17,7 @@
 }
 .story-response {
   font-size: 12px;
-  
+
 }
 .story-content {
   height: 30px;

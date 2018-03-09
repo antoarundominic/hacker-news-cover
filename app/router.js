@@ -8,6 +8,8 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('top-stories', { path: '/' });
+  this.route('new-stories');
+  this.route('hn-show');
 });
 
 export default Router;
